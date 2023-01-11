@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/mherwig/OpenLens/releases/download/v6.3.0/OpenLens-6.3.0.exe#/dl.7z",
-            "hash": "56b4179dff23d7a4768ad10015500b0ede3b4c9a34863afb977550745bb8ceb5",
+            "hash": "bf19009e12bd9af68b521a6d9a878841397ecf127969457b81399b385f6264d5",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
